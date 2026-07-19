@@ -9,7 +9,7 @@ export const metadata = {
   openGraph: {
     title: 'Cendikia — Platform Quiz SMA/SMK Indonesia',
     description: 'Platform quiz pembelajaran SMA/SMK terbaik. Uji pengetahuanmu di 11 mata pelajaran, bersaing di leaderboard global, dan raih prestasi tertinggi!',
-    url: 'https://cendikia.vercel.app', // Ganti dengan URL domain kamu nanti
+    url: 'https://cendik.vercel.app', // Ganti dengan URL domain kamu nanti
     siteName: 'Cendikia',
     locale: 'id_ID',
     type: 'website',
@@ -31,7 +31,7 @@ export const metadata = {
     },
   },
   verification: {
-    google: 'KODE_VERIFIKASI_GOOGLE_DISINI', // Nanti kita isi ini
+    google: 'X1-CI78eEbS01a2iXihvRVJut3wNZF01PeqYx5B0fh8', // Nanti kita isi ini
   },
 };
 

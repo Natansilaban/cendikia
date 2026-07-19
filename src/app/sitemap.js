@@ -1,6 +1,6 @@
 export default function sitemap() {
   // Ganti URL ini dengan URL domain asli kamu nantinya (misal https://cendikia.vercel.app atau https://cendikia.com)
-  const baseUrl = 'https://cendikia.vercel.app';
+  const baseUrl = 'https://cendik.vercel.app';
 
   return [
     {

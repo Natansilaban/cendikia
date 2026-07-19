@@ -6,6 +6,6 @@ export default function robots() {
       disallow: ['/api/'], // Jangan index endpoint API
     },
     // Ganti URL ini dengan URL domain asli kamu nantinya
-    sitemap: 'https://cendikia.vercel.app/sitemap.xml',
+    sitemap: 'https://cendik.vercel.app/sitemap.xml',
   }
 }
