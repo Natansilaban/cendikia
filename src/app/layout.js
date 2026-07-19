@@ -3,7 +3,36 @@ import './globals.css';
 export const metadata = {
   title: 'Cendikia — Platform Quiz SMA/SMK Indonesia',
   description: 'Platform quiz pembelajaran SMA/SMK terbaik. Uji pengetahuanmu di 11 mata pelajaran, bersaing di leaderboard global, dan raih prestasi tertinggi!',
-  keywords: 'quiz SMA, quiz SMK, belajar online, soal latihan, leaderboard, Matematika, Fisika, Kimia, Biologi',
+  keywords: 'quiz SMA, quiz SMK, belajar online, soal latihan, leaderboard, Matematika, Fisika, Kimia, Biologi, tryout SMA, latihan soal gratis, ujian sekolah',
+  authors: [{ name: 'Natan' }],
+  creator: 'Natan',
+  openGraph: {
+    title: 'Cendikia — Platform Quiz SMA/SMK Indonesia',
+    description: 'Platform quiz pembelajaran SMA/SMK terbaik. Uji pengetahuanmu di 11 mata pelajaran, bersaing di leaderboard global, dan raih prestasi tertinggi!',
+    url: 'https://cendikia.vercel.app', // Ganti dengan URL domain kamu nanti
+    siteName: 'Cendikia',
+    locale: 'id_ID',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Cendikia — Platform Quiz SMA/SMK Indonesia',
+    description: 'Uji pengetahuanmu di 11 mata pelajaran dan raih prestasi tertinggi di Cendikia!',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  verification: {
+    google: 'KODE_VERIFIKASI_GOOGLE_DISINI', // Nanti kita isi ini
+  },
 };
 
 export default function RootLayout({ children }) {
